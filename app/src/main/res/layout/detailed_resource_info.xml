@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/resource_name"
+        android:layout_width="109dp"
+        android:layout_height="23dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="60dp"
+        android:text="resource_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/resource_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="32dp"
+        android:text="resource_info"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resource_name" />
+
+    <TextView
+        android:id="@+id/resource_info_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="32dp"
+        android:text="resource_info_input"
+        app:layout_constraintStart_toEndOf="@+id/resource_info"
+        app:layout_constraintTop_toBottomOf="@+id/resource_name_input" />
+
+    <TextView
+        android:id="@+id/resource_name_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="64dp"
+        android:text="resource_name_input"
+        app:layout_constraintStart_toEndOf="@+id/resource_name"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/resource_class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="28dp"
+        android:text="resource_class"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resource_info" />
+
+    <TextView
+        android:id="@+id/resource_class_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="28dp"
+        android:text="resource_class_input"
+        app:layout_constraintStart_toEndOf="@+id/resource_class"
+        app:layout_constraintTop_toBottomOf="@+id/resource_info_input" />
+
+    <TextView
+        android:id="@+id/resource_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="28dp"
+        android:text="resource_result"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resource_class" />
+
+    <TextView
+        android:id="@+id/resource_result_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="28dp"
+        android:text="resource_result_input"
+        app:layout_constraintStart_toEndOf="@+id/resource_result"
+        app:layout_constraintTop_toBottomOf="@+id/resource_class_input" />
+
+    <TextView
+        android:id="@+id/download_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="16dp"
+        android:text="download_num"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resource_result" />
+
+    <TextView
+        android:id="@+id/download_num_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="16dp"
+        android:text="download_num_input"
+        app:layout_constraintStart_toEndOf="@+id/download_num"
+        app:layout_constraintTop_toBottomOf="@+id/resource_result_input" />
+
+    <TextView
+        android:id="@+id/favorite_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="24dp"
+        android:text="favorite_num"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/download_num" />
+
+    <TextView
+        android:id="@+id/favorite_num_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="24dp"
+        android:text="favorite_num_input"
+        app:layout_constraintStart_toEndOf="@+id/favorite_num"
+        app:layout_constraintTop_toBottomOf="@+id/download_num_input" />
+
+    <TextView
+        android:id="@+id/resource_audit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="28dp"
+        android:text="resource_audit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/favorite_num" />
+
+    <TextView
+        android:id="@+id/resource_audit_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="28dp"
+        android:text="resource_audit_input"
+        app:layout_constraintStart_toEndOf="@+id/resource_audit"
+        app:layout_constraintTop_toBottomOf="@+id/favorite_num_input" />
+
+    <TextView
+        android:id="@+id/resource_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="40dp"
+        android:text="resource_id"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resource_audit" />
+
+    <TextView
+        android:id="@+id/resource_id_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="32dp"
+        android:text="resource_id_input"
+        app:layout_constraintStart_toEndOf="@+id/resource_id"
+        app:layout_constraintTop_toBottomOf="@+id/resource_audit_input" />
+
+    <TextView
+        android:id="@+id/user_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="28dp"
+        android:text="user_id"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resource_id" />
+
+    <TextView
+        android:id="@+id/user_id_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginTop="36dp"
+        android:text="user_id_input"
+        app:layout_constraintStart_toEndOf="@+id/user_id"
+        app:layout_constraintTop_toBottomOf="@+id/resource_id_input" />
+
+    <Button
+        android:id="@+id/change_resource_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginBottom="152dp"
+        android:text="change_resource_status"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/delete_resource"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:layout_marginBottom="80dp"
+        android:text="delete_resource"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/resource_uptime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="32dp"
+        android:text="resource_uptime"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/user_id" />
+
+    <TextView
+        android:id="@+id/resource_uptime_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="32dp"
+        android:text="resource_uptime_input"
+        app:layout_constraintStart_toEndOf="@+id/resource_uptime"
+        app:layout_constraintTop_toBottomOf="@+id/user_id_input" />
+</androidx.constraintlayout.widget.ConstraintLayout>

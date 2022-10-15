@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/old_pswd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="38dp"
+        android:layout_marginLeft="38dp"
+        android:layout_marginTop="170dp"
+        android:text="old  password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/new_pswd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="44dp"
+        android:text="new password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/old_pswd" />
+
+    <TextView
+        android:id="@+id/confirm_pswd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="35dp"
+        android:text="confirm password"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/new_pswd" />
+
+    <EditText
+        android:id="@+id/opswd_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="160dp"
+        android:ems="10"
+        android:hint="old password"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/old_pswd"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/npswd_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="new password"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/new_pswd"
+        app:layout_constraintTop_toBottomOf="@+id/opswd_input" />
+
+    <EditText
+        android:id="@+id/cpswd_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="confirm password"
+        android:inputType="textPersonName"
+        app:layout_constraintStart_toEndOf="@+id/confirm_pswd"
+        app:layout_constraintTop_toBottomOf="@+id/npswd_input" />
+
+    <Button
+        android:id="@+id/pswd_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="83dp"
+        android:layout_marginLeft="83dp"
+        android:layout_marginTop="112dp"
+        android:text="cancel"
+        app:layout_constraintStart_toEndOf="@+id/pswd_submit"
+        app:layout_constraintTop_toBottomOf="@+id/cpswd_input" />
+
+    <Button
+        android:id="@+id/pswd_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="47dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="125dp"
+        android:text="submit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/confirm_pswd" />
+</androidx.constraintlayout.widget.ConstraintLayout>
